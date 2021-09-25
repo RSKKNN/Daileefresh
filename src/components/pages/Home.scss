@@ -1,0 +1,455 @@
+.home {
+  display: flex;
+  justify-content: center;
+}
+.family {
+  position: absolute;
+  justify-self: center;
+  height: 615px;
+  width: 1837.26px;
+  margin-top: 258px;
+}
+
+.Mango {
+  position: absolute;
+  justify-self: center;
+  width: 369px;
+  height: 587px;
+  margin-top: 226px;
+}
+
+.Mandes {
+  position: absolute;
+  margin-top: 670px;
+
+  position: absolute;
+  width: 603px;
+  height: 223px;
+  left: 203px;
+
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22.7504px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.verMango {
+  position: absolute;
+  justify-self: center;
+  width: 369px;
+  /*height: 1174px;*/
+  height: 2348px;
+  /* margin-top: -650px; */
+  margin-top: -2422px;
+}
+
+.Mdes {
+  position: absolute;
+  width: 684px;
+  height: 350px;
+  margin-left: 314px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 103%;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+
+.ldes {
+  position: absolute;
+  width: 684px;
+  height: 350px;
+  margin-left: 314px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 103%;
+  letter-spacing: 0.04em;
+  margin-top: 350px;
+  color: #000000;
+  padding-top: 80px;
+}
+.lemonade {
+  position: absolute;
+  /*width: 369px;*/
+  /*height: 1174px;*/
+  height: 2348px;
+  /* margin-top: -550px;*/
+  margin-top: -2138px;
+}
+
+.lemon {
+  position: absolute;
+  width: 369px;
+  height: 587px;
+  display: none;
+
+  margin-top: 200px;
+}
+
+.upblock {
+  position: absolute;
+  width: 656px;
+  height: 330px;
+
+  background: transparent;
+  margin-top: 450px;
+}
+
+.downblock {
+  position: absolute;
+  width: 656px;
+  height: 380px;
+  margin-top: 330px;
+
+  background: transparent;
+}
+
+.gdes {
+  position: absolute;
+  width: 684px;
+  height: 350px;
+  margin-left: 314px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 103%;
+  letter-spacing: 0.04em;
+  margin-top: 310px;
+  color: black;
+  display: none;
+}
+
+.Apple {
+  position: absolute;
+  z-index: 1;
+  margin-top: -1727px;
+}
+
+.Ades {
+  position: absolute;
+  width: 684px;
+  height: 350px;
+  margin-left: 314px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 103%;
+  letter-spacing: 0.04em;
+  margin-top: 400px;
+  color: #000000;
+  display: none;
+}
+
+.Orange {
+  position: absolute;
+  width: 384px;
+  height: 682.67px;
+  margin-top: 200px;
+  z-index: 0;
+}
+
+.Odes {
+  position: absolute;
+  width: 684px;
+  height: 350px;
+  margin-left: 314px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 103%;
+  letter-spacing: 0.04em;
+  padding-top: 400px;
+  color: #000000;
+  display: none;
+}
+
+.extra {
+  position: absolute;
+  width: 1900px;
+  height: 1038px;
+  top: 2000px;
+
+  background: #561f1f;
+}
+
+.alpha1 {
+  position: absolute;
+  width: 302px;
+  height: 140px;
+
+  font-family: "Contrail One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 112px;
+
+  /*margin-top: 350px;*/
+
+  margin-top: 100px;
+  color: #000000;
+  text-shadow: 2px 0 0 #f4bf3c, -2px 0 0 #c54126, 0 2px 0 #c54126,
+    0 -2px 0 #c54126, 1px 1px #c54126, -1px -1px 0 #c54126, 1px -1px 0 #f4bf3c,
+    -1px 1px 0 #c54126;
+
+  /* Inside Auto Layout */
+}
+
+.rib {
+  position: absolute;
+  margin-top: 250px;
+  z-index: -1;
+}
+
+.rib2 {
+  position: absolute;
+  margin-top: 750px;
+  z-index: -1;
+}
+
+.alpha2 {
+  position: absolute;
+  width: 459px;
+  height: 150px;
+
+  margin-top: 100px;
+  font-family: "Contrail One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120px;
+
+  color: #000000;
+
+  text-shadow: 2px 0 0 #f4bf3c, -2px 0 0 #c54126, 0 2px 0 #c54126,
+    0 -2px 0 #c54126, 1px 1px #c54126, -1px -1px 0 #c54126, 1px -1px 0 #f4bf3c,
+    -1px 1px 0 #c54126;
+  z-index: -1;
+  /* Inside Auto Layout */
+}
+
+.manbk {
+  position: fixed;
+  margin-top: -850px;
+  z-index: -3;
+  filter: blur(16px);
+}
+
+.MangoText {
+  position: absolute;
+  width: 1550px;
+  height: 542.22px;
+  left: 185px;
+  top: 231px;
+
+  font-family: Contrail One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 513.768px;
+  line-height: 643px;
+
+  color: #f4bf3c;
+
+  /*border: 2.37124px solid #000000;*/
+  text-shadow: 2px 0 0 #f4bf3c, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #f4bf3c, -1px 1px 0 #000;
+}
+
+.LemonadeText {
+  position: absolute;
+  width: 1550px;
+  height: 542.22px;
+  left: 185px;
+  top: 241px;
+
+  font-family: Contrail One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 413.768px;
+  line-height: 643px;
+
+  color: #004e3f;
+
+  /*border: 2.37124px solid #000000;*/
+  text-shadow: 2px 0 0#9e9e4d, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #9e9e4d, -1px 1px 0 #000;
+}
+
+.LemonText {
+  position: absolute;
+  width: 1550px;
+  height: 542.22px;
+  left: 185px;
+  top: 241px;
+
+  font-family: Contrail One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 413.768px;
+  line-height: 643px;
+
+  color: #fff44f;
+
+  /*border: 2.37124px solid #000000;*/
+  text-shadow: 2px 0 0#fff44f, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #fff44f, -1px 1px 0 #000;
+}
+
+.OrangeText {
+  position: absolute;
+  width: 1550px;
+  height: 542.22px;
+  left: 185px;
+  top: 241px;
+
+  font-family: Contrail One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 413.768px;
+  line-height: 643px;
+  z-index: 1;
+  color: #004e3f;
+
+  /*border: 2.37124px solid #000000;*/
+  text-shadow: 2px 0 0#9e9e4d, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #9e9e4d, -1px 1px 0 #000;
+
+  border-radius: 5px 300px 3px 300px;
+  background: #6dc75f;
+  width: 150px;
+  height: 150px;
+  margin-top: 125px;
+}
+
+.AppleText {
+  position: absolute;
+  width: 1550px;
+  height: 542.22px;
+  left: 185px;
+  top: 241px;
+
+  font-family: Contrail One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 413.768px;
+  line-height: 643px;
+  display: none;
+  color: #004e3f;
+
+  /*border: 2.37124px solid #000000;*/
+  text-shadow: 2px 0 0#9e9e4d, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #9e9e4d, -1px 1px 0 #000;
+}
+
+.box {
+  position: absolute;
+  /* width: 11712px;
+  height: 15223px; */
+}
+
+.box2 {
+  position: absolute;
+  width: 5736.15px;
+
+  height: 6428px;
+  background: #23c88c;
+  border-radius: 150px;
+}
+
+.boxlemon {
+  /* margin-top: -1070px;*/
+  margin-top: -3120px;
+  position: absolute;
+}
+
+.appup {
+  position: absolute;
+}
+
+.appdown {
+  position: absolute;
+  margin-top: 540px;
+}
+
+.strip {
+  position: absolute;
+}
+
+//ball
+.grid {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  display: none;
+}
+
+.Applsw {
+  animation: Applsw ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  float: left;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+  margin-top: -50px;
+  display: none;
+}
+
+.Applsw:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  top: -10px;
+  left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+/* nail */
+.Applsw:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: -14px;
+  left: 54%;
+  z-index: 5;
+  border-radius: 50% 50%;
+  background: #000;
+}
+
+@keyframes Applsw {
+  0% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+.green {
+  filter: blur(16px);
+  opacity: 0.7;
+}
+
+.videoTag {
+  position: fixed;
+  width: 1920px;
+  height: 1080px;
+  z-index: -5;
+  display: none;
+}
