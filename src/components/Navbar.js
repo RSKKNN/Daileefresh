@@ -1,104 +1,42 @@
-import React, { useState,useEffect, useRef } from 'react';
-import {Button} from './Button';
-import './Navbar.css';
-import Dropdown from './Dropdown';
-import { Link } from 'react-router-dom';
-import { GiFlame } from "react-icons/gi";
-import { FaTimes, FaBars, FaCaretDown } from "react-icons/fa";
-import {
-  useViewportScroll,
-  motion,
-  useTransform,
-  useMotionValue
-} from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
+import Navbar from 'react-bootstrap/Navbar'
+import { Container,Nav,NavDropdown,Image } from 'react-bootstrap'
 
+import React from 'react'
+import "./Navbar.css"
 
-
-function Navbar() {
-
-
-const{ scrollY} =useViewportScroll();
- const y1 = useTransform(scrollY, [0, 99999], [0, 99999]);
-
-
-    const [click, setClick] = useState(false)
-    const [dropdown, setDropdown] = useState(false);
-
-    const handleClick = () => setClick(!click);
-
-    const closeMobileMenu = () => setClick(false);
-
-    const onMousEnter = () => {
-        if(window.innerWidth < 960){
-            setDropdown(false);
-        } else{
-            setDropdown(true);
-        }
-    };
-
-    const onMousLeave = () => {
-        if(window.innerWidth < 960){
-            setDropdown(false);
-        } else{
-            setDropdown(false);
-        }
-    };
-
+const Navbar1 = () => {
     return (
-        <>
-            <motion.nav className='navbar' style={{x:0}}>
-                <Link to='/' className='navbar-logo'>
-                    <img className='logo' src="./logo.png" alt="" />
-                </Link> 
-                <div className = 'menu-icon' onClick ={handleClick}>
-                   {click?<FaTimes className = 'fa'/>:<FaBars className = 'fa'/>} 
-                </div>
-                <ul className={click? 'nav-menu active': "nav-menu"}>
-                    <li className = 'nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                            Home
-                        </Link>
-                    </li>
-                    <li className = 'nav-item'
-                   /* onMouseEnter={onMousEnter}
-                    onMouseLeave={onMousLeave}*/>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                            Our Flavours
-                           
-                       <FaCaretDown className="fa-down"/>
-                        </Link>
-                        {dropdown && <Dropdown/>}
-                    </li>
+        <div>
+            
+<Navbar collapseOnSelect expand="md" bg="white" variant="light" fixed="top" >
+  <Container fluid>
+  <Navbar.Brand href="#home" >
 
-                     <li className = 'nav-item'>
-                        <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
-                            About
-                        </Link>
-                    </li>
+      <Image src="./logo.png"/>
+  </Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="me-auto">
+      <Nav.Link href="#features">Our Flavours</Nav.Link>
+      <Nav.Link href="#pricing">Whats New</Nav.Link>
+      <Nav.Link href="#pricing1">About</Nav.Link>
+       <Nav.Link href="#pricing2">Dealership Enquiry</Nav.Link>
+     
+    </Nav>
+    <Nav>
+      <Nav.Link href="#deets">Contacts</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">
+        
+      </Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
 
-                    <li className = 'nav-item'>
-                        <Link to='/produkts' className='nav-links' onClick={closeMobileMenu}>
-                            Tour
-                        </Link>
-                    </li>
-                    <li className = 'nav-item'>
-                        <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
-                            Dealership Enquiry
-                        </Link>
-                    </li>
-                  
-                </ul>
-                <Button>
-                     <li className = 'nav-item'>
-                        <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Sign Up
-                        </Link>
-                    </li>
-                </Button>
-            </motion.nav>
-        </>
+
+
+        </div>
     )
 }
 
-export default Navbar;
+export default Navbar1

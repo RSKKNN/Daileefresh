@@ -10,40 +10,36 @@
   margin-top: 258px;
 }
 
-.Mango {
-  position: absolute;
-  justify-self: center;
-  width: 369px;
-  height: 587px;
-  margin-top: 226px;
-}
-
 .Mandes {
   position: absolute;
-  margin-top: 670px;
+  width: 434px;
+  height: 249px;
 
-  position: absolute;
-  width: 603px;
-  height: 223px;
-  left: 203px;
+  top: 380px;
 
-  font-family: roboto;
+  font-family: "Julius Sans One", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 22.7504px;
-  line-height: 25px;
+  font-size: 18.7046px;
+  line-height: 193.5%;
+  /* or 36px */
 
-  color: #000000;
+  letter-spacing: 0.085em;
+
+  color: whitesmoke;
 }
 
 .verMango {
   position: absolute;
   justify-self: center;
-  width: 369px;
+  /*width: 369px;
   /*height: 1174px;*/
-  height: 2348px;
+  /* height: 2348px;*/
   /* margin-top: -650px; */
-  margin-top: -2422px;
+  width: 738px;
+  height: 4696px;
+
+  margin-top: -3600px;
 }
 
 .Mdes {
@@ -82,7 +78,7 @@
   /*height: 1174px;*/
   height: 2348px;
   /* margin-top: -550px;*/
-  margin-top: -2138px;
+  margin-top: -2128px;
 }
 
 .lemon {
@@ -195,7 +191,7 @@
 
   /*margin-top: 350px;*/
 
-  margin-top: 100px;
+  margin-top: 300px;
   color: #000000;
   text-shadow: 2px 0 0 #f4bf3c, -2px 0 0 #c54126, 0 2px 0 #c54126,
     0 -2px 0 #c54126, 1px 1px #c54126, -1px -1px 0 #c54126, 1px -1px 0 #f4bf3c,
@@ -221,7 +217,7 @@
   width: 459px;
   height: 150px;
 
-  margin-top: 100px;
+  margin-top: 600px;
   font-family: "Contrail One", cursive;
   font-style: normal;
   font-weight: normal;
@@ -237,10 +233,11 @@
 }
 
 .manbk {
-  position: fixed;
-  margin-top: -850px;
+  position: absolute;
+
   z-index: -3;
-  filter: blur(16px);
+
+  /*filter: blur(16px);*/
 }
 
 .MangoText {
@@ -248,7 +245,7 @@
   width: 1550px;
   height: 542.22px;
   left: 185px;
-  top: 231px;
+  top: 241px;
 
   font-family: Contrail One;
   font-style: normal;
@@ -316,11 +313,14 @@
   font-size: 413.768px;
   line-height: 643px;
   z-index: 1;
-  color: #004e3f;
-
+  /* color: #004e3f;
+*/
+  color: #dfb15b;
   /*border: 2.37124px solid #000000;*/
-  text-shadow: 2px 0 0#9e9e4d, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
-    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #9e9e4d, -1px 1px 0 #000;
+  text-shadow: 20px 0 0#fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+    1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  /*text-shadow: 20px 0 0#000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;*/
 
   border-radius: 5px 300px 3px 300px;
   background: #6dc75f;
@@ -345,8 +345,8 @@
   color: #004e3f;
 
   /*border: 2.37124px solid #000000;*/
-  text-shadow: 2px 0 0#9e9e4d, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
-    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #9e9e4d, -1px 1px 0 #000;
+  text-shadow: 2px 0 0#fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+    1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .box {
@@ -362,6 +362,7 @@
   height: 6428px;
   background: #23c88c;
   border-radius: 150px;
+  z-index: -10;
 }
 
 .boxlemon {
@@ -381,6 +382,7 @@
 
 .strip {
   position: absolute;
+  z-index: -9;
 }
 
 //ball
@@ -444,6 +446,7 @@
 .green {
   filter: blur(16px);
   opacity: 0.7;
+  display: none;
 }
 
 .videoTag {
@@ -452,4 +455,55 @@
   height: 1080px;
   z-index: -5;
   display: none;
+}
+
+.white {
+  position: fixed;
+  width: 1920px;
+  height: 1080px;
+
+  background: #ffffff;
+  z-index: -7;
+}
+
+.b1 {
+  position: absolute;
+  background-color: #f4bf3c;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23FFFFFF'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  z-index: -11;
+  height: 1080px;
+  width: 1920px;
+}
+.b3 {
+  position: absolute;
+  background-color: #66ff77;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1000 1000'%3E%3Cdefs%3E%3CradialGradient id='a' cx='500' cy='500' r='975' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2366ff77'/%3E%3Cstop offset='1' stop-color='%23240'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='500' cy='500' r='975' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23EF5' stop-opacity='1'/%3E%3Cstop offset='1' stop-color='%23EF5' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1000' height='1000'/%3E%3Cg fill='none' stroke='%23081' stroke-width='10' stroke-miterlimit='10' stroke-opacity='.2'%3E%3Cpolygon points='-500%2C500 500%2C-500 1500%2C500 500%2C1500'/%3E%3Cpolygon points='-475%2C500 500%2C-475 1475%2C500 500%2C1475'/%3E%3Cpolygon points='-450%2C500 500%2C-450 1450%2C500 500%2C1450'/%3E%3Cpolygon points='-425%2C500 500%2C-425 1425%2C500 500%2C1425'/%3E%3Cpolygon points='-400%2C500 500%2C-400 1400%2C500 500%2C1400'/%3E%3Cpolygon points='-375%2C500 500%2C-375 1375%2C500 500%2C1375'/%3E%3Cpolygon points='-350%2C500 500%2C-350 1350%2C500 500%2C1350'/%3E%3Cpolygon points='-325%2C500 500%2C-325 1325%2C500 500%2C1325'/%3E%3Cpolygon points='-300%2C500 500%2C-300 1300%2C500 500%2C1300'/%3E%3Cpolygon points='-275%2C500 500%2C-275 1275%2C500 500%2C1275'/%3E%3Cpolygon points='-250%2C500 500%2C-250 1250%2C500 500%2C1250'/%3E%3Cpolygon points='-225%2C500 500%2C-225 1225%2C500 500%2C1225'/%3E%3Cpolygon points='-200%2C500 500%2C-200 1200%2C500 500%2C1200'/%3E%3Cpolygon points='-175%2C500 500%2C-175 1175%2C500 500%2C1175'/%3E%3Cpolygon points='-150%2C500 500%2C-150 1150%2C500 500%2C1150'/%3E%3Cpolygon points='-125%2C500 500%2C-125 1125%2C500 500%2C1125'/%3E%3Cpolygon points='-100%2C500 500%2C-100 1100%2C500 500%2C1100'/%3E%3Cpolygon points='-75%2C500 500%2C-75 1075%2C500 500%2C1075'/%3E%3Cpolygon points='-50%2C500 500%2C-50 1050%2C500 500%2C1050'/%3E%3Cpolygon points='-25%2C500 500%2C-25 1025%2C500 500%2C1025'/%3E%3Cpolygon points='0%2C500 500%2C0 1000%2C500 500%2C1000'/%3E%3Cpolygon points='25%2C500 500%2C25 975%2C500 500%2C975'/%3E%3Cpolygon points='50%2C500 500%2C50 950%2C500 500%2C950'/%3E%3Cpolygon points='75%2C500 500%2C75 925%2C500 500%2C925'/%3E%3Cpolygon points='100%2C500 500%2C100 900%2C500 500%2C900'/%3E%3Cpolygon points='125%2C500 500%2C125 875%2C500 500%2C875'/%3E%3Cpolygon points='150%2C500 500%2C150 850%2C500 500%2C850'/%3E%3Cpolygon points='175%2C500 500%2C175 825%2C500 500%2C825'/%3E%3Cpolygon points='200%2C500 500%2C200 800%2C500 500%2C800'/%3E%3Cpolygon points='225%2C500 500%2C225 775%2C500 500%2C775'/%3E%3Cpolygon points='250%2C500 500%2C250 750%2C500 500%2C750'/%3E%3Cpolygon points='275%2C500 500%2C275 725%2C500 500%2C725'/%3E%3Cpolygon points='300%2C500 500%2C300 700%2C500 500%2C700'/%3E%3Cpolygon points='325%2C500 500%2C325 675%2C500 500%2C675'/%3E%3Cpolygon points='350%2C500 500%2C350 650%2C500 500%2C650'/%3E%3Cpolygon points='375%2C500 500%2C375 625%2C500 500%2C625'/%3E%3Cpolygon points='400%2C500 500%2C400 600%2C500 500%2C600'/%3E%3Cpolygon points='425%2C500 500%2C425 575%2C500 500%2C575'/%3E%3Cpolygon points='450%2C500 500%2C450 550%2C500 500%2C550'/%3E%3Cpolygon points='475%2C500 500%2C475 525%2C500 500%2C525'/%3E%3C/g%3E%3Crect fill-opacity='.2' fill='url(%23b)' width='1000' height='1000'/%3E %3C/svg%3E");
+
+  background-size: cover;
+  z-index: -13;
+  height: 1080px;
+  width: 1920px;
+}
+.b2 {
+  position: absolute;
+  background-color: #113311;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250' viewBox='0 0 20 20'%3E%3Cg %3E%3Cpolygon fill='%23242' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%23242' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
+  z-index: -12;
+  height: 1080px;
+  width: 1920px;
+}
+
+.footerbg {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+
+  background: #000000;
+  z-index: 5;
+  display: none;
+}
+
+.facebook {
+  position: absolute;
+  z-index: 10;
 }
