@@ -40,7 +40,7 @@ import Display from "./components/pages/Our Flavours/Display.js";
 function App() {
   return (
 <>
-    <Display />
+<Navbar1 />
 
 
   </>   
