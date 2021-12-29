@@ -1,0 +1,10 @@
+.gal {
+  width: 480px;
+  height: 320px;
+  position: relative;
+  margin: 180px;
+}
+.galMain {
+  display: flex;
+  justify-content: center;
+}

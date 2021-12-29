@@ -1,0 +1,37 @@
+.ab {
+  position: absolute;
+  width: 1200px;
+  height: 560px;
+  left: 121px;
+  top: 131px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 250.69%;
+  /* or 30px */
+
+  text-align: center;
+
+  color: #000000;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: start;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.about {
+  margin-top: 150px;
+}
+.line {
+  text-align: center;
+}

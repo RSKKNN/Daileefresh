@@ -1,7 +1,21 @@
 .Navbar.brand {
   position: absolute;
-  width: 131px;
-  height: 57.56px;
-  left: 89px;
-  top: 14px;
+
+  margin-left: -30px;
+  top: 3px;
+}
+.me-auto {
+  font-family: "Fredoka One", cursive;
+  font-size: 18px;
+}
+
+.h4 {
+  color: blue;
+}
+.men {
+  color: #2d2d2d;
+  padding-left: 25px;
+}
+.men:hover {
+  color: #58ae47;
 }

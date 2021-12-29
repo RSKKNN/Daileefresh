@@ -1,0 +1,19 @@
+.Gallery {
+  height: 100%;
+}
+.GalleryTitle {
+  text-align: left;
+  position: relative;
+}
+.details {
+  position: relative;
+  height: 300px;
+}
+.Footer {
+  position: relative;
+
+  background-color: blueviolet;
+}
+.socialbg:hover {
+  transform: scale(1.5);
+}

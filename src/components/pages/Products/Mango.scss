@@ -1,0 +1,131 @@
+@import "~bootstrap/scss/bootstrap";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.outer {
+  height: 100%;
+  width: 100%;
+}
+.mango {
+  position: absolute;
+  width: 159px;
+  height: 540px;
+
+  margin-top: 120px;
+}
+.vermango {
+  position: absolute;
+  width: 159px;
+  height: 2700px;
+
+  margin-top: -2040px;
+}
+.lemonade {
+  position: absolute;
+  width: 160px;
+  height: 540px;
+
+  top: 120px;
+}
+.verlemonade {
+  position: absolute;
+  width: 159px;
+  height: 2700px;
+
+  margin-top: -2040px;
+}
+
+.box {
+  position: absolute;
+}
+
+.outerbox2 {
+  position: absolute;
+  width: 7080px;
+  height: 7080px;
+}
+.innerbox2 {
+  position: absolute;
+  left: 7.63%;
+  right: 7.63%;
+  top: 7.63%;
+  bottom: 7.63%;
+
+  background: #dcf0cf;
+  border-radius: 120px;
+}
+.innerbox3 {
+  position: absolute;
+  left: 7.63%;
+  right: 7.63%;
+  top: 7.63%;
+  bottom: 7.63%;
+  background-color: yellow;
+  border-radius: 120px;
+  border: 2px solid black;
+}
+.outerlemon {
+  position: absolute;
+  width: 1680px;
+  height: 1680px;
+
+  display: flex;
+  justify-content: center;
+}
+.lemon {
+  position: absolute;
+  height: 540px;
+  width: 160px;
+}
+
+.orange {
+  position: absolute;
+  width: 157.55px;
+  height: 540px;
+}
+
+.apple {
+  position: absolute;
+  width: 157.55px;
+  height: 540px;
+}
+
+.oraphlf {
+  position: absolute;
+  height: 720px;
+  width: 760px;
+  background-color: blue;
+}
+
+.whtlft {
+  position: fixed;
+  width: 760px;
+  height: 720px;
+  background-color: white;
+}
+.whtlftout {
+  display: flex;
+  justify-content: center;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}

@@ -1,10 +1,12 @@
 import React from 'react'
+import {motion} from "framer-motion"
+import { Container } from 'react-bootstrap'
 
 const Hero = () => {
     return (
-        <div>
-            
-        </div>
+<Container fluid>
+           <img src="./Mango.png" alt="" />
+</Container>
     )
 }
 

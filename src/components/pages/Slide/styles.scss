@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slider {
+  max-width: 100%;
+  margin: 25px;
+  overflow-x: hidden;
+  transition: 0.4s ease-out transform;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.slides {
+  display: flex;
+  list-style: none;
+  will-change: transform;
+
+  &:hover {
+    cursor: grab;
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  li {
+    &:not(:last-of-type) {
+      margin-right: 15px;
+    }
+
+    div {
+      height: 700px;
+      width: 450px;
+
+      background-position: center;
+      background-repeat: no-repeat;
+      user-select: none;
+    }
+  }
+}

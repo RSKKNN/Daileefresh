@@ -8,11 +8,11 @@ const Navbar2 = () => {
     return (
         <div>
             
-<Navbar collapseOnSelect expand="md" bg="white" variant="light" sticky="top" >
-  <Container fluid>
+<Navbar className="navi" collapseOnSelect expand="md" bg="white" variant="light" sticky="top"  >
+  <Container >
   <Navbar.Brand href="#home" >
 
-      <Image src="./logo.png"/>
+  <img src="./logo old.png" alt="" />
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
